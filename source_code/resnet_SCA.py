@@ -25,11 +25,11 @@ class BasicBlock(nn.Module):
     def __init__(self, inplanes, planes, cfg, stride=1, downsample=None):
         super(BasicBlock, self).__init__()
         self.conv1 = conv3x3(inplanes, cfg, stride)
-        self.newsge = NewSGE(planes,16)
+        self.newsge = SCA(planes,16)
         self.bn1 = nn.BatchNorm2d(cfg)
         self.relu = nn.ReLU(inplace=True)
         self.conv2 = conv3x3(cfg, planes)
-        self.newsge1 = NewSGE(planes,16)
+        self.newsge1 = SCA(planes,16)
         self.bn2 = nn.BatchNorm2d(planes)
         self.downsample = downsample
         self.stride = stride
