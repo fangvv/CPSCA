@@ -7,7 +7,7 @@ Intelligent Edge Computing. A brief introduction of this work is as follows:
 
 This paper has been accepted and has been published by [Applied Soft Computing (ASOC)](https://www.journals.elsevier.com/applied-soft-computing), and the preprint version can be downloaded from [here](https://arxiv.org/abs/2011.03891). You can also download the formal version from [here](https://doi.org/10.1016/j.asoc.2021.107636).
 
-We only provide our SCA and CPSCA here. You can find the implementation of other attention models mentioned in our paper from [PytorchInsight](https://github.com/implus/PytorchInsight).
+We only provide our SCA and CPSCA here. You can find the implementation of other attention models mentioned in our paper from [PytorchInsight](https://github.com/implus/PytorchInsight). Due to some reason, we didn't provide the scaler_for_prune.txt file required by prune.py in the released code. If you want to know how to generate it, please contact the 1st author with 18800191663@163.com.
 
 ## Required software
 
@@ -31,7 +31,7 @@ If you use these models in your research, please cite:
 
 ## Contact
 
-Mengran Liu (18120381@bjtu.edu.cn)
+Mengran Liu (18800191663@163.com)
 
 Weiwei Fang (fangvv@qq.com)
 
