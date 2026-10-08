@@ -154,6 +154,10 @@ python -c "from compute_flops import *; import torch; \
 
 > Note: The hard-coded path `infile='/scaler_for_prune.txt'` in `prune.py` means the scale file must be located at the filesystem root `/` when running the script as-is. Adjust the path to match your environment if needed.
 
+## ⭐ Star
+
+**If you find this work useful for your research, please consider giving this repository a ⭐ star. Your support is greatly appreciated!**
+
 ## Citation
 
 If you use these models in your research, please cite:
